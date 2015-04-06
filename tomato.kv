@@ -1,0 +1,15 @@
+#:kivy 1.8.0
+
+<TomatoLayout>:
+    canvas:
+        Color:
+            rgb: 0, .33, 0
+        Rectangle:
+            pos: self.pos
+            size: self.size
+        Color:
+            rgba: 1,1,1,1
+        Rectangle:
+            size: 256, 256
+            pos: (self.size[0] - 256)/2, (self.size[1] - 256)/1.33
+            source: 'images/largeicon.png'
