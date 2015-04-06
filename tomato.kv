@@ -10,6 +10,6 @@
         Color:
             rgba: 1,1,1,1
         Rectangle:
-            size: 256, 256
-            pos: (self.size[0] - 256)/2, (self.size[1] - 256)/1.33
+            size: self.size[1]*0.6, self.size[1]*0.6
+            pos: self.center_x - self.size[1]*0.6/2, (self.center_y - self.size[1]*0.6/2)*1.33
             source: 'images/largeicon.png'
