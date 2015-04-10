@@ -6,8 +6,7 @@ from kivy.config import Config
 from kivy.uix.floatlayout import FloatLayout
 
 
-class TomatoLayout(FloatLayout):
-    pass
+
 
 
 class LargeIconWidget(Widget):
@@ -28,6 +27,16 @@ class StopButton(Widget):
 class ClearButton(Widget):
     def __init__(self, **kwargs):
         super(ClearButton, self).__init__(**kwargs)
+
+
+class CherryGood(Widget):
+    def __init__(self, **kwargs):
+        super(CherryGood, self).__init__(**kwargs)
+
+
+class TomatoLayout(FloatLayout):
+    pass
+
 
 
 class TomatoApp(App):
